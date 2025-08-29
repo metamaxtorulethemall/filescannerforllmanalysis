@@ -2,7 +2,7 @@ import os
 import json
 from pathlib import Path
 from tkinter import Tk, filedialog, messagebox
-from tqdm import tqdm  # Für den Fortschrittsbalken
+from tqdm import tqdm  
 
 def scan_folder(root_folder):
     """Scannt den ausgewählten Ordner rekursiv und zeigt den Fortschritt an."""
